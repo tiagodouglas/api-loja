@@ -1,7 +1,7 @@
 require('dotenv').config();
 const config = {
     isProduction: process.env.ENV === 'prod',
-    PORT:3000,
+    PORT:80,
     USER: process.env.USER,
     PASS: process.env.PASS
 };
